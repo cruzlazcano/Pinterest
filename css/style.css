@@ -1,0 +1,165 @@
+body {
+    display: grid;
+    grid-template-rows: 60px auto;
+    grid-template-columns: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+   /* caja principal*/
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  
+  /* caja donde estan las imagenes*/
+  .tile-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 500vh;
+    margin-top: 10px;
+
+}
+  
+  /* Son los borden donde estan cada una de las imagenes cuando no está seleccionada*/
+  .tile {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+   /* esquinas de cada imagen*/
+  .tile img {
+    width: 100%;
+    border-radius: 20px;
+    
+  }
+
+  .tile img:hover{
+    background-color: rgb(32, 29, 29);
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+   /* iconos de la imagen adelante (compartir, opciones y guardar*/
+  .overlay {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+    bottom: 0px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .overlay a{
+
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius:20px;
+    background-color: rgba(128, 128, 128, 0.719);
+    margin: 2px;
+  }
+
+  .overlay a:hover{
+
+    background-color: rgba(128, 128, 128, 0.356) ;
+  }
+
+  
+   /* color bordes de iconos compartir y opciones*/
+  .tile .overlay img {
+    width: 20px;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+
+
+   /* boton guardar, color de letra y bordes*/
+.btn_Guardar{
+
+    background-color: #bd081d;
+    border-radius: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: 6px;
+    margin-right: 6px;
+  
+
+
+}
+.btn_Guardar:hover{
+  cursor: pointer;
+  background-color: #da1229;
+
+
+}
+
+  .btn_Guardar p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+  }
+
+
+  
+  
+  .boton_ab {
+    font-weight: bold;
+    height: 48px;
+    width: 48px;
+    padding: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    
+  }
+  
+  .icon_preg {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #efefef;
+    padding: 0px; 
+    border-radius: 4px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width:595px) {
+    .icons {
+      flex-grow: 1;
+      justify-content: space-around;
+    }
+  
+    .search-icon {
+      display: block;
+      margin: 0px 20px;
+    }
+  
+    input {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width:1145px) {
+    .tile-container {
+      height: 300vh;
+      width: 1080px;
+    }
+  }

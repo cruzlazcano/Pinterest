@@ -1,0 +1,395 @@
+
+.foto1 {
+
+    height: 85%;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background:url(../img/cuadro1-1.jpg);
+    background-size:cover;
+    border-radius: 20px;
+ 
+}
+
+.foto1:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto2 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro1-2.jpg);
+    background-size:auto;
+    border-radius: 20px;
+ 
+}
+
+.foto2:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+
+.foto3 {
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro1-3.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+
+}
+
+.foto3:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto4 {
+   
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro1-4.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+
+}
+
+.foto4:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto5 {
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro2-1.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+
+}
+.foto5:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto6 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro2-2.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+
+}
+
+.foto6:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+
+.foto7 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro2-3.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+
+}
+
+.foto7:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto8 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro2-4.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+}
+
+.foto8:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+
+.foto9 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro3-1.jpg);
+    background-size:cover;
+    border-radius: 20px;
+
+}
+
+.foto9:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto10 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro3-2.jpg);
+    background-size:cover;
+    border-radius: 20px;
+   
+}
+
+.foto10:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+
+.foto11 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro3-3.jpg);
+    background-size:cover;
+    border-radius: 20px;
+  
+}
+
+.foto11:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto12 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro3-4.jpg);
+    background-size:cover;
+    border-radius: 20px;
+   
+}
+
+.foto12:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto13 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro4-1.jpg);
+    background-size:cover;
+    border-radius: 20px;
+   
+}
+
+.foto13:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto14 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro4-2.jpg);
+    background-size:cover;
+    border-radius: 20px;
+   
+}
+
+.foto14:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.foto15 {
+
+    height: 85%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/cuadro4-3.jpg);
+    background-size:cover;
+    border-radius: 20px;
+   
+}
+.foto15:hover:before{
+    color: white;
+    content: 'Abrir';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
